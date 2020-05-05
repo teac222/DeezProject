@@ -1,0 +1,26 @@
+.favoriteTrack{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1, .instruction{
+    text-align:center;
+}
+h1{
+    animation:slideDown 1s ease-out;
+}
+.instruction{
+    animation: slideDown 0.7s ease-out;
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+
+video#bgvid{
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -1;
+	background-size: cover;
+}
